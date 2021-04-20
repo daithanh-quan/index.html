@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/summer.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./asset/fonts/fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web//css/all.css">
+</head>
+
+<body>
+  <div class="app">
+    <!-- header -->
+    <div class="header">
+      <div class="header__items">
+        <div class="grid grid-items">
+          <div class="header__items-left">
+            <div class="header__items-left-info">
+              <div class="header__items-left-info-row">
+                <i class="fas fa-globe-europe"></i>
+                <span class="header__items-left-info-name">LANGUAGES</span>
+              </div>
+              <div class="header__items-left-info-row">
+                <span class="header__items-left-info-name">EN</span>
+                <span class="header__items-left-info-name">ES</span>
+              </div>
+              <div class="header__items-left-info-row">
+                <a href=""><i class="fas fa-draw-polygon"></i></a>
+                <span class="header__items-left-info-name">OUR SOCIAL</span>
+              </div>
+              <div class="header__items-left-info-row">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="header__items-left-info-row">
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </div>
+              <div class="header__items-left-info-row">
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <div class="header__items-left-info-row">
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="header__items-right">
+            <div class="header__items-right-info">
+              <div class="header__items-right-info-row">
+                <a href=""><i class="far fa-star"></i></a>
+                <span class="header__items-right-info-name">TOUR PACKAGES</span>
+              </div>
+              <div class="header__items-right-info-row">
+                <a href=""><i class="fas fa-map-marker-alt"></i></a>
+                <span class="header__items-right-info-name">CONTACT US</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-two -->
+    <div class="header__between">
+      <div class="header__between--items">
+        <div class="grid ">
+          <div class="grid-items">
+            <a href="" class="header__between-img-row">
+              <img
+                src="./asset/img/logo-color.png"
+                alt="" class="header__between--items-img">
+              <li onclick="showHideBanner()"><i class="fas fa-bars"></i></li>
+            </a>
+            <ul class="header__between--items-row ">
+              <li class="header__between--items-circle" onclick="showHideBanner()"><i class="far fa-times-circle"></i>
+              </li>
+              <li class="header__between--items-content">
+                <a href="" class="header__between--items-content-detail">HOME</a>
+              </li>
+              <li class="header__between--items-content">
+                <a href="" class="header__between--items-content-detail">PACKAGES
+                </a>
+                <ul class="sub__menu">
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item hot">Search 1</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Search 2</a>
+                  </li>
+                  <li class="sub__menu-wrap appear">
+                    <a href="" class="sub__menu-item arrow ">Tour Package</a>
+                    <ul class="sub__menu sub__menu2 ">
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item best">Carousel</a></li>
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Custom Map</a></li>
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">360 Panorama</a></li>
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Default</a></li>
+                    </ul>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Destination</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Typology</a>
+                  </li>
+                </ul>
+
+              </li>
+              <li class="header__between--items-content">
+                <a href="" class="header__between--items-content-detail">SHOP</a>
+                <ul class="sub__menu">
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Archive</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Single Product</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Cart</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Checkout</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__between--items-content">
+                <a href="" class="header__between--items-content-detail">ABOUT US</a>
+                <ul class="sub__menu">
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item new">About Us</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">About Us 1 </a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">About Us 2 </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__between--items-content">
+                <a href="" class="header__between--items-content-detail">PAGES</a>
+                <ul class="sub__menu">
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Services</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Agency Tours</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Testimonials</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Prices</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Promotion</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Faq</a>
+                  </li>
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Coming Soon</a>
+                  </li>
+                  <li class="sub__menu-wrap appear">
+                    <a href="" class="sub__menu-item arrow">About Us</a>
+                    <ul class="sub__menu sub__menu2 ">
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">About Us</a></li>
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">About Us 1</a></li>
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">About Us 2</a></li>
+                    </ul>
+                  </li>
+                  <li class="sub__menu-wrap appear">
+                    <a href="" class="sub__menu-item arrow">Contact</a>
+                    <ul class="sub__menu sub__menu2 ">
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Contact 1</a></li>
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Contact 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__between--items-content">
+                <a href="" class="header__between--items-content-detail">NEWS</a>
+                <ul class="sub__menu">
+                  <li class="sub__menu-wrap">
+                    <a href="" class="sub__menu-item">Archive</a>
+                  </li>
+                  <li class="sub__menu-wrap appear">
+                    <a href="" class="sub__menu-item arrow">Single Post</a>
+                    <ul class="sub__menu sub__menu2 ">
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Full Width</a></li>
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Right Sidebar</a></li>
+                      <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Left Sidebar</a></li>
+                    </ul>
+
+                  </li>
+
+                </ul>
+              </li>
+              <li class="header__between--items-content">
+                <a href="" class="header__between--items-content-detail">CONTACT</a>
+                <ul class="sub__menu">
+                  <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Contact 1</a></li>
+                  <li class="sub__menu-wrap"><a href="" class="sub__menu-item">Contact 2</a></li>
+                </ul>
+              </li>
+              <li class="header__between--items-content">
+                <a href="" class="header__between--items-content-detail header__between--items-content-color ">BOOK
+                  NOW</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-finish -->
+    <div class="header__finish">
+      <div class="grid grid__content">
+        <div class="grid-grow">
+          <div class="header__finish-item">
+            <div class="header__finish-item-content">
+              <div class="grid-10">
+                <div class="header__finish-item-content-detail">
+                  <ul class="header__finish-item-list">
+                    <li class="header__finish-item-list-img change"><img
+                        src="./asset/img/parallax-1.jpg"
+                        alt="" class="header__finish-item-img"></li>
+                    <li class="header__finish-item-list-img"><img
+                        src="./asset/img/parallax-2.jpg"
+                        alt="" class="header__finish-item-img"></li>
+                    <li class="header__finish-item-list-img"><img
+                        src="./asset/img/parallax-3.jpg"
+                        alt="" class="header__finish-item-img"></li>
+                  </ul>
+                  <div class="header__finish-icon">
+                    <div class="header__finish-item-content-between">
+                      <i class="fas fa-wave-square"></i> <br>
+                      <span>PACKAGES <br>
+                        SALE <br>
+                        -50%
+                      </span> <br>
+                      <button class="header__finish-item-content-btn">SHOP NOW</button>
+                    </div>
+                  </div>
+                  <div class="header__finish-item-horizon">
+                    <div class="header__finish-item-horizon-line selected"></div>
+                    <div class="header__finish-item-horizon-line"></div>
+                    <div class="header__finish-item-horizon-line"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="app__container">
+      <div class="grid ">
+
+        <div class="grid-grow">
+          <div class="app__container-content">
+            <div class="app__container-title">
+              <p>OUR PROPOSALS</p>
+              <h1>OUR <a href="">DESTINATIONS</a></h1>
+            </div>
+          </div>
+        </div>
+        <div class="grid-grow">
+          <div class="grid-2-10  hover differ">
+            <img
+              src="./asset/img/col 1.jpg"
+              alt="" class="app__container-wrap-img">
+            <div class="app__container-wrap-item">
+              <div class="app__container-wrap-top">
+                <img
+                  src="./asset/img/logo2.png"
+                  alt="" class="app__container-wrap-top-img">
+              </div>
+              <div class="app__container-wrap-bottom">
+                <h1>Asia</h1>
+                <p>2 PACKAGES</p>
+              </div>
+            </div>
+            <div class="app__container--appear">
+              <div class="app__container--appear-item">
+                <h1>Packages</h1>
+                <p>Bora Bora</p>
+                <p>Phuket</p>
+                <a href="">VIEW DESTINATION</a>
+              </div>
+            </div>
+          </div>
+          <div class="grid-2-10 differ orther">
+            <div class="app__container-detail">
+              <div class="app__container-detail-item">
+                <img
+                  src="./asset/img/row 1.jpg"
+                  alt="" class="app__container-detail-img">
+              </div>
+              <div class="app__container-detail-info">
+                <li>Koh Samui</li>
+                <li><i class="fas fa-map-marker-alt two"></i> Europe</li>
+                <li>From 700 $</li>
+              </div>
+            </div>
+            <div class="app__container-detail">
+              <div class="app__container-detail-item">
+                <img
+                  src="./asset/img/row 2.jpg"
+                  alt="" class="app__container-detail-img">
+              </div>
+              <div class="app__container-detail-info">
+                <li>Bora Bora</li>
+                <li><i class="fas fa-map-marker-alt two"></i>Asia</li>
+                <li>From 500 $</li>
+              </div>
+            </div>
+            <div class="app__container-detail">
+              <div class="app__container-detail-item">
+                <img
+                  src="./asset/img/row 3.jpg"
+                  alt="" class="app__container-detail-img">
+              </div>
+              <div class="app__container-detail-info">
+                <li>Maldives</li>
+                <li><i class="fas fa-map-marker-alt two"></i>Oceania</li>
+                <li>From 400 $</li>
+              </div>
+            </div>
+          </div>
+          <div class="grid-2-10  hover differ ">
+            <img
+              src="./asset/img/col 2.jpg"
+              alt="" class="app__container-wrap-img">
+            <div class="app__container-wrap-item">
+              <div class="app__container-wrap-top">
+                <img
+                  src="./asset/img/logo3.png"
+                  alt="" class="app__container-wrap-top-img">
+              </div>
+              <div class="app__container-wrap-bottom">
+                <h1>Europe</h1>
+                <p>3 PACKAGES</p>
+              </div>
+            </div>
+            <div class="app__container--appear">
+              <div class="app__container--appear-item">
+                <h1>Packages</h1>
+                <p>Koh Samui</p>
+                <p>Seychelles</p>
+                <p>Hawaii</p>
+                <a href="">VIEW DESTINATION</a>
+              </div>
+            </div>
+          </div>
+          <div class="grid-2-10 differ orther">
+            <div class="app__container-detail">
+              <div class="app__container-detail-item">
+                <img
+                  src="./asset/img/row 4.jpg"
+                  alt="" class="app__container-detail-img">
+              </div>
+              <div class="app__container-detail-info">
+                <li>Hawaii</li>
+                <li><i class="fas fa-map-marker-alt two"></i>Italy</li>
+                <li>From 730 $</li>
+              </div>
+            </div>
+            <div class="app__container-detail">
+              <div class="app__container-detail-item">
+                <img
+                  src="./asset/img/row 5.jpg"
+                  alt="" class="app__container-detail-img">
+              </div>
+              <div class="app__container-detail-info">
+                <li>Seychelles</li>
+                <li><i class="fas fa-map-marker-alt two"></i>Netherlands</li>
+                <li>From 1500 $</li>
+              </div>
+            </div>
+            <div class="app__container-detail">
+              <div class="app__container-detail-item">
+                <img
+                  src="./asset/img/row 6.jpg"
+                  alt="" class="app__container-detail-img">
+              </div>
+              <div class="app__container-detail-info">
+                <li>Phuket</li>
+                <li><i class="fas fa-map-marker-alt two"></i>Thailandia</li>
+                <li>From 1200 $</li>
+              </div>
+            </div>
+          </div>
+          <div class="grid-2-10 differ">
+            <div class="app__container-info">
+              <p class="app__container-info-col-1">OUR PROPOSALS</p>
+              <h1 class="app__container-info-col-1-1">Creative <br> Travel Agency</h1>
+            </div>
+          </div>
+          <div class="grid-2-10 differ">
+            <div class="app__container-info">
+              <p class="app__container-info-col-2">1978 <span>.</span></p>
+              <h1 class="app__container-info-col-2-1">Lorem ipsum dolor sit amet, consectetur <a href="">adipiscing</a>
+                elit.
+                Curabitur ut diam etni</h1>
+            </div>
+          </div>
+          <div class="grid-2-10 differ">
+            <div class="app__container-info">
+              <p class="app__container-info-col-3">50 <span>K</span></p>
+              <h1 class="app__container-info-col-3-1">Lorem ipsum dolor sit amet, consectetur <a href="">adipiscing</a>
+                elit.
+                Curabitur ut diam etni</h1>
+            </div>
+          </div>
+          <div class="grid-2-10 differ">
+            <div class="app__container-info">
+              <p class="app__container-info-col-4"><span>+</span> 20</p>
+              <h1 class="app__container-info-col-4-1">Lorem ipsum dolor sit amet, consectetur <a href="">adipiscing</a>
+                elit.
+                Curabitur ut diam etni</h1>
+            </div>
+          </div>
+        </div>
+        <div class="grid-grow">
+          <div class="app__container-list">
+            <div class="app__container-content-two">
+              <div class="app__container-title app__container-title-two ">
+                <p>OUR PROPOSALS</p>
+                <h1>OUR <a href="">DESTINATIONS</a></h1>
+              </div>
+              <div class="grid-grow grid__content differ">
+                <div class="app__container-title-list">
+                  <div class="app__container-title-list-items">
+                    <div class="grid-3-3">
+                      <div class="app__container-title-list-info">
+                        <span>Destination</span>
+                        <li><a href="">All Destination</a></li>
+                      </div>
+                      <div class="app__container-title-list-info">
+                        <span>Difficultly</span>
+                        <li><a href="">All Difficultly</a></li>
+                      </div>
+                    </div>
+                    <div class="grid-3-3">
+                      <div class="app__container-title-list-info">
+                        <span>Typology</span>
+                        <li><a href="">All Typologies</a></li>
+                      </div>
+                      <div class="app__container-title-list-info">
+                        <span>Min Age</span>
+                        <li><a href="">All Min Age</a></li>
+                      </div>
+                    </div>
+                    <div class="grid-3-3">
+                      <div class="app__container-title-list-info">
+                        <span>Durations</span>
+                        <li><a href="">All Duration</a></li>
+                      </div>
+                      <div class="app__container-title-list-info">
+                        <span></span>
+                        <li class="btn"><a href="" class="btn-search">Search</a></li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="app__container-list-img">
+              <img
+                src="./asset/img/pic 4.jpg"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div class="grid-grow ">
+          <div class="app__container--calendar">
+            <div class="grid-3-3 ">
+              <div class="app__container--calendar-first">
+                <div class="app__container--calendar-first-wrapp">
+                  <p>OUR PROPOSALS</p>
+                  <h1>ARTICLE & <br> NEWS </h1>
+                </div>
+                <div class="app__container--calendar-first-wrapp-item">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor leo quam, in lacinia lacus
+                    congue venenatis.</p>
+                  <li><a href="">OUR BLOG</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="grid-3-3 orther ">
+              <div class="app__container--calendar-second grid-border">
+                <div class="app__container--calendar-second-wrapp">
+                  <p>APRIL 11, 2018</p>
+                  <h1>Travel Event</h1>
+                  <p>
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                    orci ut et lobortis.
+                  </p>
+                  <li><a href="" class="btn-first">READ MORE</a></li>
+                </div>
+              </div>
+              <div class="app__container--calendar-second grid-border grid-wrapp">
+                <div class="app__container--calendar-second-wrapp">
+                  <p>APRIL 11, 2018</p>
+                  <h1>Magic Blooms</h1>
+                  <p>
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                    orci ut et
+                    lobortis.
+                  </p>
+                  <li><a href="" class="btn-first">READ MORE</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="grid-3-3 orther">
+              <div class="app__container--calendar-second grid-border">
+                <div class="app__container--calendar-second-wrapp">
+                  <p>APRIL 11, 2018</p>
+                  <h1>Best Beaches</h1>
+                  <p>
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                    orci ut et
+                    lobortis.
+                  </p>
+                  <li><a href="" class="btn-second">READ MORE</a></li>
+                </div>
+              </div>
+              <div class="app__container--calendar-second grid-border grid-wrapp">
+                <div class="app__container--calendar-second-wrapp">
+                  <p>APRIL 11, 2018</p>
+                  <h1>Alternative Trips</h1>
+                  <p>
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod
+                    orci ut et
+                    lobortis.
+                  </p>
+                  <li><a href="" class="btn-second">READ MORE</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-grow">
+          <div class="app__container-area">
+            <div class="grid-2-5">
+              <div class="app__container-area-info">
+                <span class="app__container-area-number">30</span>
+                <span class="app__container-area-detail">YEARS OF<br>EXPERIENCE</span>
+              </div>
+            </div>
+            <div class="grid-2-5">
+              <div class="app__container-area-info">
+                <span class="app__container-area-number">78</span>
+                <span class="app__container-area-detail">SATISFIED <br> CUSTOMERS</span>
+              </div>
+            </div>
+            <div class="grid-2-5">
+              <div class="app__container-area-info">
+                <span class="app__container-area-number">45</span>
+                <span class="app__container-area-detail">TYPES OF <br> INSURANCE</span>
+              </div>
+            </div>
+            <div class="grid-2-5">
+              <div class="app__container-area-info">
+                <span class="app__container-area-number">56</span>
+                <span class="app__container-area-detail">TRAVEL<br> DESTINATIONS</span>
+              </div>
+            </div>
+            <div class="app__container-area-img">
+              <img
+                src="./asset/img/pic 5.jpg"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div class="grid-grow">
+          <div class="app__container-content">
+            <div class="app__container-title ">
+              <p>OUR PROPOSALS</p>
+              <h1>OUR <a href="">DESTINATIONS</a></h1>
+            </div>
+          </div>
+          <div class="grid-grow ">
+            <div class="app__container--prices">
+              <div class="grid-3-3 ">
+                <div class="app__container--prices-list">
+                  <div class="app__container--prices-list-top">
+                    <div class="app__container--prices-item-left">
+                      <h1>20 <span>$</span></h1>
+                      <span>Basic</span>
+                    </div>
+                    <div class="app__container--prices-item-right">
+                      <span>MONTHLY</span>
+                    </div>
+                  </div>
+                  <div class="app__container--prices-list-bottom">
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <a href="" class="btn-second">READ MORE</a></li>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-3-3 orther">
+                <div class="app__container--prices-list app__container--prices-between">
+                  <div class="app__container--prices-list-top">
+                    <div class="app__container--prices-item-left between-left">
+                      <h1>20 <span>$</span></h1>
+                      <span>Basic</span>
+                    </div>
+                    <div class="app__container--prices-item-right between-right">
+                      <span>MONTHLY</span>
+                    </div>
+                  </div>
+                  <div class="app__container--prices-list-bottom prices-between">
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <a href="" class="btn-second">READ MORE</a></li>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-3-3 orther">
+                <div class="app__container--prices-list">
+                  <div class="app__container--prices-list-top">
+                    <div class="app__container--prices-item-left">
+                      <h1>20 <span>$</span></h1>
+                      <span>Basic</span>
+                    </div>
+                    <div class="app__container--prices-item-right">
+                      <span>MONTHLY</span>
+                    </div>
+                  </div>
+                  <div class="app__container--prices-list-bottom">
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet</p>
+                    <a href="" class="btn-second">READ MORE</a></li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="app__footer">
+      <div class="grid">
+        <div class="grid-grow grid__footer">
+          <div class="app__footer-list">
+            <div class="app__footer-list-top">
+              <div class="app__footer-list-title">
+                <p>KEEP IN TOUCH</p>
+                <h1>Travel With Us</h1>
+              </div>
+              <div class="app__footer-list-input">
+                <input type="text">
+                <a href="">SEND</a>
+              </div>
+            </div>
+            <div class="app__footer-list-between differ">
+              <div class="grid grid__content">
+                <div class="app__footer-list-between-item">
+                  <div class="grid-4">
+                    <div class="app__footer-list-between-img"><img
+                        src="./asset/img/logo-color.png"
+                        alt=""></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh <a
+                        href="">condimentum</a> venenatis eu ac magnasin.
+                      Quisque interdum est mauris, eget ullamcorper.</p>
+                    <div class="app__footer-list-between-social">
+                      <i class="fab fa-twitter icon-twiter"></i>
+                      <i class="fab fa-youtube"></i>
+                      <i class="fab fa-facebook-square"></i>
+                      <i class="fab fa-vimeo-v"></i>
+                    </div>
+                  </div>
+                  <div class="grid-2">
+                    <h1>OUR AGENCY</h1>
+                    <div class="app__footer-list-between-arrow">
+                      <p><i class="fas fa-chevron-right footer-left"></i>Services</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Insurancee</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Agency</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Tourism</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Payment</p>
+                    </div>
+                  </div>
+                  <div class="grid-2">
+                    <h1>OUR AGENCY</h1>
+                    <div class="app__footer-list-between-arrow">
+                      <p><i class="fas fa-chevron-right footer-left"></i>Services</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Insurancee</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Agency</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Tourism</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Payment</p>
+                    </div>
+                  </div>
+                  <div class="grid-2">
+                    <h1>OUR AGENCY</h1>
+                    <div class="app__footer-list-between-arrow">
+                      <p><i class="fas fa-chevron-right footer-left"></i>Services</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Insurancee</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Agency</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Tourism</p>
+                      <p><i class="fas fa-chevron-right footer-left"></i>Payment</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="app__footer--finish grid__content differ">
+              <div class="app__footer--finish-item">
+                <p>THE BEST WORDPRESS TRAVEL THEME</p>
+                <p>COPYRIGHT NICDARK THEMES 2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="app__footer-scroll">
+            <div class="app__footer-logo">
+              <span class="app__footer-logo-top">BUY NOW</span>
+              <a href="" class="app__footer-logo-between">
+                <span><i class="fas fa-dollar-sign"></i></span>
+                <span>54</span>
+              </a>
+            </div>
+            <div class="app__footer-logo2">
+              <a href="">
+                <i class="fas fa-fire"></i>
+              </a>
+            </div>
+          </div>
+          <img
+            src="./asset/img/pic 6.jpg"
+            alt="" class="app__footer-img">
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+  <script src="/summer.js"></script>
+</body>
+
+</html>
