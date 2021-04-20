@@ -18,11 +18,10 @@ function showHideBanner() {
   showHeader = !showHeader
   var nav = $('.header__between--items-row ')
   if (showHeader) {
-    nav.style.visibility = 'hidden'
-    nav.style.display = 'none'
+    nav.style.transform = 'translateX(100%)'
+    // nav.style.display = 'none'
   } else {
-    nav.style.visibility = 'visible'
-    nav.style.display = 'block'
+    nav.style.transform = 'translateX(0)'
+    // nav.style.display = 'block'
   }
-  console.log(showHideBanner)
 }
