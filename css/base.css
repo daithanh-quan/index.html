@@ -76,7 +76,7 @@ html {
     z-index: 9999;
     padding: 30px !important;
     text-align: start !important;
-    height: 1000px;
+    height: 100%;
     overflow: scroll;
     overflow-x: hidden;
   }
@@ -295,7 +295,7 @@ html {
     z-index: 9999;
     padding: 30px !important;
     text-align: start !important;
-    height: 1000px;
+    height: 100%;
     overflow: scroll;
     overflow-x: hidden;
   }
